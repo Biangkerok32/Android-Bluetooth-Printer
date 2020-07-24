@@ -94,6 +94,10 @@ public class BluetoothPrinter {
     public boolean printLine() {
         return printText("________________________________");
     }
+    
+    public boolean printDoubleLine() {
+        return printText("================================");
+    }
 
     public boolean addNewLine() {
         return printUnicode(NEW_LINE);
